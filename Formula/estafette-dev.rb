@@ -2,7 +2,7 @@ class EstafetteDev < Formula
     desc "The CLI for Estafette - The resilient and cloud-native CI/CD platform (dev track)"
     homepage "https://estafette.io"
     url "https://github.com/estafette/estafette/releases/download/v0.1.0/estafette-v0.1.0-darwin-amd64.zip"
-    sha256 "8f0ae46221049988e3011e89c3add0e5c2c1a02243395a838c8bebea67c136f5"
+    sha256 "cdbb125177ba99c25e0b0dfa0249f6ebc129fe4c983fb55d86c70b67e18222d3"
     version "0.1.0"
 
   def install

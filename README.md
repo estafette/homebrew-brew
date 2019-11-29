@@ -1,15 +1,13 @@
-# Estafette
+
+Welcome at the official Homebrew tap repository for Estafette.
 
 ## How do I install these formulae?
-`brew install estafette/ci/<formula>`
 
-Or `brew tap estafette/ci` and then `brew install <formula>`.
+Use `brew install estafette/tap/<formula>` or `brew tap estafette/tap` and then `brew install <formula>`.
 
-Or install via URL (which will not receive updates):
+## Formulas
 
-```
-brew install https://raw.githubusercontent.com/estafette/homebrew-ci/master/Formula/<formula>.rb
-```
-
-## Documentation
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+| Formula       | Description                                                                       |
+| ------------- | --------------------------------------------------------------------------------- |
+| estafette     | The CLI for Estafette - The resilient and cloud-native CI/CD platform             |
+| estafette-dev | The CLI for Estafette - The resilient and cloud-native CI/CD platform (dev track) |

@@ -1,12 +1,12 @@
 class Estafette < Formula
     desc "The command-line interface for Estafette - The resilient and cloud-native CI/CD platform (dev track)"
     homepage "https://estafette.io"
-    url "https://github.com/estafette/estafette/releases/download/v0.1.2/estafette-v0.1.2-darwin-amd64.zip"
-    sha256 "339768c3f1eb2227a7924e341944c3cf1100352790f7580b03c0c5fefb707e89"
-    version "0.1.2"
+    url "https://github.com/estafette/estafette/releases/download/v0.1.3/estafette-v0.1.3-darwin-amd64.zip"
+    sha256 "2a84989c7b4f5f9d261362d2f82c4d6067c2904267bb762a2c5b46a16f77154c"
+    version "0.1.3"
 
   def install
-    bin.install "estafette-v0.1.2-darwin-amd64" => "estafette"
+    bin.install "estafette-v0.1.3-darwin-amd64" => "estafette"
   end
 
   test do
